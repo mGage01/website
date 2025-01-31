@@ -62,7 +62,7 @@ export function Navigation() {
                 <Brain className="h-6 w-6 text-blue-600" />
               </div>
             </div>
-            <span className="font-bold text-xl">MGAGE</span>
+            <span className="font-bold text-xl">MGAGE AI</span>
           </Link>
 
           {/* Desktop Navigation */}
