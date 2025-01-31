@@ -82,7 +82,7 @@ export default function Contact() {
                     <div>
                       <p className="font-medium">Call Us</p>
                       <a href="tel:+15551234567" className="text-muted-foreground hover:text-primary transition-colors">
-                        +1 (555) 123-4567
+                        
                       </a>
                     </div>
                   </div>
@@ -92,7 +92,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-medium">Visit Us</p>
-                      <p className="text-muted-foreground">123 Tech Street, Silicon Valley, CA</p>
+                      <p className="text-muted-foreground">26918 North 28 LN,Phoenix,AZ,85085</p>
                     </div>
                   </div>
                 </div>
