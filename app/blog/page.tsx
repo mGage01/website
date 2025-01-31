@@ -11,7 +11,7 @@ const blogPosts = [
     title: "The Future of AI in Business Automation",
     excerpt: "Explore how artificial intelligence is revolutionizing business processes and what it means for the future of work.",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
-    author: "Sarah Johnson",
+    author: "Saritha",
     date: "April 15, 2024",
     readTime: "5 min read",
     category: "AI & Automation"
