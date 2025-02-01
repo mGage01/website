@@ -92,7 +92,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-medium">Visit Us</p>
-                      <p className="text-muted-foreground">26918 North 20 LN, Phoenix, AZ, 85085</p>
+                      <p className="text-muted-foreground">26918 North 20 th LN, Phoenix, AZ, 85085</p>
                     </div>
                   </div>
                 </div>
