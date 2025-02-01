@@ -36,7 +36,7 @@ export default function Contact() {
                       <label htmlFor="email" className="text-sm font-medium">
                         Email
                       </label>
-                      <Input id="email" type="email" placeholder="john@example.com" />
+                      <Input id="email" type="email" placeholder="john.doe@gmail.com" />
                     </div>
                     <div className="space-y-2">
                       <label htmlFor="subject" className="text-sm font-medium">
@@ -81,8 +81,9 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-medium">Call Us</p>
-                      <a href="tel:+15551234567" className="text-muted-foreground hover:text-primary transition-colors">
-                        
+                      <a href="tel:+14807475894" className="text-muted-foreground hover:text-primary transition-colors">
+                        +1 (480) 747-5894
+
                       </a>
                     </div>
                   </div>
@@ -92,7 +93,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-medium">Visit Us</p>
-                      <p className="text-muted-foreground">26918 North 28 LN,Phoenix,AZ,85085</p>
+
+                      <p className="text-muted-foreground">26918 North 20 th LN, Phoenix, AZ, 85085</p>
                     </div>
                   </div>
                 </div>
@@ -100,7 +102,7 @@ export default function Contact() {
                 {/* Google Maps Embed */}
                 <div className="aspect-video w-full rounded-lg overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101459.59325762714!2d-122.19105554179689!3d37.40295141495399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7495bec0189%3A0x7c17d44a466baf9b!2sSilicon%20Valley%2C%20CA!5e0!3m2!1sen!2sus!4v1650000000000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.2119072686464!2d-112.1063810243197!3d33.72933613471184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b65aef3c06057%3A0xaef61583c17cfc4d!2s26918%20N%2020th%20Ln%2C%20Phoenix%2C%20AZ%2085085!5e0!3m2!1sen!2sus!4v1738396141837!5m2!1sen!2sus" 
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -108,15 +110,15 @@ export default function Contact() {
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                   />
-                </div>
+                 </div>
 
                 {/* Social Media Links */}
                 <div className="flex justify-center gap-6">
                   {[
                     { icon: Facebook, href: "#", label: "Facebook" },
-                    { icon: Twitter, href: "#", label: "Twitter" },
+                    //{ icon: Twitter, href: "#", label: "Twitter" },
                     { icon: Linkedin, href: "#", label: "LinkedIn" },
-                    { icon: Instagram, href: "#", label: "Instagram" }
+                    //{ icon: Instagram, href: "#", label: "Instagram" }
                   ].map((social, index) => (
                     <Link
                       key={index}
