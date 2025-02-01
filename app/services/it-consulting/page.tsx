@@ -78,17 +78,6 @@ export default function ITConsulting() {
                     className="relative rounded-lg shadow-2xl"
                   />
                 </div>
-                <div className="absolute -bottom-8 -left-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-xl">
-                  <div className="flex items-center gap-4">
-                    <div className="p-3 bg-blue-100 dark:bg-blue-900/50 rounded-full">
-                      <Shield className="h-6 w-6 text-blue-600 dark:text-blue-400" />
-                    </div>
-                    <div>
-                      <p className="font-semibold">Trusted by Industry Leaders</p>
-                      <p className="text-sm text-muted-foreground">500+ Successful Projects</p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

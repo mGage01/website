@@ -30,7 +30,7 @@ export function Footer() {
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors">
                   <Phone className="h-4 w-4" />
-                  <Link href="tel:+15551234567">+1 (555) 123-4567</Link>
+                  <Link href="tel: +14807475894"> +1 (480) 747-5894</Link>
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <MapPin className="h-4 w-4 flex-shrink-0" />
